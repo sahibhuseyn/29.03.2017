@@ -1,0 +1,145 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.bar:hover:after {
+  color: #fff; }
+.bar:after {
+  content: "\f20e";
+  font-family: "Ionicons";
+  font-weight: 700; }
+
+.close_x {
+  z-index: 21; }
+  .close_x:hover:after {
+    color: #fff; }
+  .close_x:after {
+    content: "\f2d7";
+    font-family: "Ionicons";
+    font-weight: 700;
+    color: #18afd3;
+    opacity: 1; }
+
+#menu_icon {
+  width: 5rem;
+  height: 5rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: fixed;
+  left: 50px;
+  top: 30px;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 3rem;
+  line-height: 5rem;
+  transition: all .5s;
+  color: #18afd3;
+  z-index: 20; }
+  #menu_icon:hover {
+    background: #18afd3; }
+
+.menu_side {
+  position: fixed;
+  top: 0;
+  left: -50%;
+  z-index: 15;
+  bottom: 0;
+  background: #fff;
+  padding: 6rem 2.6rem;
+  overflow-x: hidden;
+  text-align: center;
+  transition: all 1s ease; }
+  .menu_side > form {
+    position: relative; }
+    .menu_side > form > .search_section {
+      position: relative; }
+      .menu_side > form > .search_section > input:after {
+        content: "search"; }
+      .menu_side > form > .search_section > label {
+        transition: all .5s;
+        font-weight: 100;
+        text-transform: capitalize;
+        color: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 45px;
+        left: 10px; }
+      .menu_side > form > .search_section > input[type='text'] {
+        outline: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #bdbdbd;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 2rem;
+        line-height: 45px;
+        background: transparent;
+        color: #434345;
+        margin: 3rem 0 4rem 0; }
+    .menu_side > form > button {
+      background: none;
+      border: none;
+      font-size: 2rem;
+      outline: none;
+      position: absolute;
+      top: 40px;
+      right: 15px; }
+      .menu_side > form > button > span:after {
+        content: "\f2f5";
+        font-family: "Ionicons";
+        font-weight: 700;
+        color: #f57e57; }
+  .menu_side .side_menu_list {
+    list-style: none;
+    color: #f8a387;
+    font-weight: 900;
+    text-align: left; }
+    .menu_side .side_menu_list .side_menu_arrow {
+      cursor: pointer; }
+      .menu_side .side_menu_list .side_menu_arrow:after {
+        content: "\f3d0";
+        font-family: "Ionicons";
+        position: absolute;
+        right: 0; }
+    .menu_side .side_menu_list > li {
+      margin: 1.6rem;
+      text-transform: uppercase; }
+      .menu_side .side_menu_list > li > a {
+        color: #f8a387; }
+        .menu_side .side_menu_list > li > a:hover {
+          text-decoration: none; }
+      .menu_side .side_menu_list > li:first-child > a {
+        color: #f57e57; }
+    .menu_side .side_menu_list .pages_sub > li, .menu_side .side_menu_list .gallery_sub > li, .menu_side .side_menu_list .blog_sub > li {
+      text-transform: capitalize;
+      list-style: none;
+      margin-top: 1.6rem;
+      font-weight: 100; }
+      .menu_side .side_menu_list .pages_sub > li > a, .menu_side .side_menu_list .gallery_sub > li > a, .menu_side .side_menu_list .blog_sub > li > a {
+        color: #f8a387; }
+        .menu_side .side_menu_list .pages_sub > li > a:hover, .menu_side .side_menu_list .gallery_sub > li > a:hover, .menu_side .side_menu_list .blog_sub > li > a:hover, .menu_side .side_menu_list .pages_sub > li > a:active, .menu_side .side_menu_list .gallery_sub > li > a:active, .menu_side .side_menu_list .blog_sub > li > a:active {
+          text-decoration: none; }
+
+.row, [class*='col'] {
+  border: 1px solid grey; }
+
+.header_row .col-md-4:nth-of-type(2) .call_us .row .col-md-4 .phone {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  background: #18afd3;
+  color: #fff;
+  font-size: 50px; }
+  .header_row .col-md-4:nth-of-type(2) .call_us .row .col-md-4 .phone:after {
+    content: '\f4b9';
+    line-height: 4rem;
+    font-family: "Ionicons"; }
+
+/*# sourceMappingURL=home.css.map */

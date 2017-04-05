@@ -1,0 +1,51 @@
+@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+$ion-font:'Ionicons';
+$font-family:'Open Sans', sans-serif;
+$main-color:#18afd3;
+$secondary-color:rgb(245, 126, 87);
+$tertiary-color:#fff;
+$fourth-color:rgb(134, 134, 134);
+$darken-color:rgb(67, 68, 69);
+$hover-color:rgb(85, 187, 235);
+$dot-background:rgba(24, 175, 211, 0.219608);
+$grid-background:#F1F3F9;
+$arrow-color:#99cedc;
+$shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2);
+$transition: all 1s ease;
+$full-width:100%;
+$full-height:100%;
+$margin:2rem;
+$text-center:center;
+$common-list:none;
+$line-height:5px;
+@mixin rounded-border($radius){
+	-webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin border($width, $style, $color){
+  border-width: $width;
+  border-style: $style;
+  border-color: $color;
+}
+@mixin position-fixed($left,$top){
+	position: fixed;
+	left:$left;
+	top:$top;
+}
+@mixin position-absolute($left,$top){
+	position: fixed;
+	left:$left;
+	top:$top;
+}
+@mixin common-link(){
+	text-decoration:none;
+	color:$tertiary-color;
+}
+
+html,body{
+	font-family:$font-family;
+	margin:0;
+	padding:0;
+}
